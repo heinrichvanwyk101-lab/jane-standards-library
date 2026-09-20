@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "ROW-602.pdf",
+    "document_title": "",
+    "pages": "166",
+    "file_size_bytes": 83506823,
+    "sha256": "da36c1b9794e9ba7344158ad737a71244eda7b6b7a4490c7e1a0d7e92b1388bb",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  },
+  {
+    "file_name": "TR-509-1.pdf",
+    "document_title": "Manual title",
+    "pages": "267",
+    "file_size_bytes": 4760502,
+    "sha256": "b757a94e0f85cd9da97d56597a36cbc84100fa6d0b5d23ee9c851a6e089c60b9",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  },
+  {
+    "file_name": "TR-509-2.pdf",
+    "document_title": "Manual title",
+    "pages": "185",
+    "file_size_bytes": 5334143,
+    "sha256": "9f763c4d3b6f968ccbef975d1637f2b59f55dd2c1c5a59c70cb93b0ba8199659",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  },
+  {
+    "file_name": "TR-513.pdf",
+    "document_title": "Abu Dhabi DoT Pavement Design Manual",
+    "pages": "266",
+    "file_size_bytes": 14292465,
+    "sha256": "2eafdd184b7f59b7048e407f496eba2451e6abdbb5dc4e6d81ebe1c022addb24",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  },
+  {
+    "file_name": "TR-516.pdf",
+    "document_title": "A21 - Road Structures Design Manual",
+    "pages": "222",
+    "file_size_bytes": 5278883,
+    "sha256": "4427263d67f48bfc7a10d88dd5fedc9d12a7712df1019d9b68cb2f666598a540",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  },
+  {
+    "file_name": "TR-542-2.pdf",
+    "document_title": "",
+    "pages": "712",
+    "file_size_bytes": 11887282,
+    "sha256": "c466c98453d3522b9b431d1b1184099918ad7321e3bdf15dcd1dcac5fc92f67c",
+    "original_library_upload_date": "2026-06-19",
+    "provenance": "user-uploaded during MBZ standards review",
+    "repository_status": "pending release"
+  }
+]
