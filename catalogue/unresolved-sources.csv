@@ -1,0 +1,4 @@
+id,authority,source_url,result,next_action
+ISGL-00,QCC,https://jawdah.qcc.abudhabi.ae/en/Registration/QCCServices/Services/STD/ISGL/ISGL.pdf,download_failed,"Locate current official umbrella document; retain ISGL catalogue and component documents"
+TAQA-04,AADC,https://www.aadc.ae/docs/GL.AM.01.pdf,non_pdf_response,"Locate replacement on current TAQA Distribution/AADC site or obtain authority-issued copy"
+TAQA-05,AADC,https://www.aadc.ae/img/394bc1b2-e24c-475d-9a01-c4d31ee122cc.pdf,non_pdf_response,"Identify document title from prior register and locate replacement official source"
