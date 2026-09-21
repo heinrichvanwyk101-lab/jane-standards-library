@@ -4,13 +4,9 @@ Date assessed: 2026-09-21
 
 ## Decision
 
-The supplied narrative is useful as a research hypothesis, but it must **not** be
-loaded into Jane as a mandatory authority checklist. It combines official
-documents with consultant marketing pages and adds detailed stage percentages
-and discipline deliverables that the cited sources do not establish.
+The supplied narrative is useful as a research hypothesis. The **30%, 60%, 90% and 100% IDAS submission gates are practitioner-confirmed by Heinrich van Wyk on 2026-09-21** and should be retained as the current operational gate model. The supplied citations reviewed to date do not independently establish those percentages, so Jane must distinguish this practitioner-confirmed rule from an authority-document-verified rule.
 
-Jane should retain each claim with its evidence level and use only verified
-official requirements for deterministic submission checks.
+The detailed per-discipline deliverables remain candidate checks until each is mapped to an official source, a real submission package, or CRS evidence. Jane should retain every claim with its evidence level rather than flattening all material into one authority checklist.
 
 ## Verified official findings
 
@@ -40,14 +36,20 @@ Guidelines for Infrastructure**, Version 1.0, October 2020.
   Geotechnical Study, ST Structural, LS Landscape, IR Irrigation, MT Materials,
   EM Electro-mechanical and AD Addressing.
 
+## Practitioner-confirmed operating rule
+
+The current IDAS design gates are fixed at **30%, 60%, 90% and 100%**. This confirmation is operational evidence supplied by Heinrich van Wyk. Jane may use the four gates to structure workflows and package completeness reviews, while displaying provenance as `practitioner_confirmed` until an authority-issued source is attached.
+
+Do not collapse the four percentage gates into the ADM-BIM-002 BIM phase-code table. The two classifications may be related, but the mapping must be evidenced before Jane treats it as deterministic.
+
 ## Claims not established by the supplied citations
 
 | Supplied claim | Assessment | Jane treatment |
 |---|---|---|
-| IDAS has exactly three mandatory core stages | Contradicted by ADM-BIM-002's four design-to-tender BIM phase codes: CD, PD, DD and FT. The BIM phase table may still not be the complete IDAS gate model. | Do not encode as a rule. |
-| Concept is always a 30% submission | No percentage found in ADM-BIM-002. | Unverified. |
-| Detailed Design is universally 60%-90% | No percentage found in ADM-BIM-002. | Unverified. |
-| Final/Tender is a 100%/IFC submission | ADM-BIM-002 uses For Tender (FT), not an IFC equivalence in its phase table. | Do not conflate FT and IFC. |
+| IDAS has exactly three mandatory core stages | Superseded by practitioner confirmation of four gates: 30%, 60%, 90% and 100%. ADM-BIM-002 separately lists CD, PD, DD and FT BIM phase codes. | Use four percentage gates with `practitioner_confirmed` provenance; keep BIM phase codes separate. |
+| Concept is always a 30% submission | 30% is practitioner-confirmed as an IDAS gate; its formal phase label and official documentary source remain pending. | Encode the gate, not an unsupported phase equivalence. |
+| Detailed Design is universally 60%-90% | 60% and 90% are practitioner-confirmed as separate IDAS gates; official phase mapping remains pending. | Encode two distinct gates with provenance. |
+| Final/Tender is a 100%/IFC submission | 100% is practitioner-confirmed as an IDAS gate. ADM-BIM-002 uses For Tender (FT), and no reviewed source yet proves FT = IFC = 100%. | Encode the gate; do not conflate FT and IFC. |
 | The listed discipline deliverables are mandatory at each stated stage | The official guideline says detailed deliverables vary by project and are agreed through TIDP/MIDP. | Treat the supplied lists as candidate checks only. |
 | WGS84 / UTM Zone 40N is required by ADM-BIM-002 | Not found in the downloaded guideline. It may exist in another GIS or survey standard. | Source separately before enforcing. |
 | A Combined Utility Layout must demonstrate zero conflicts | Coordination and clash-free models are BIM objectives, but this exact universal deliverable statement is not established here. | Candidate rule pending an official checklist. |
@@ -70,9 +72,8 @@ The first IDAS checker should use a two-layer ruleset:
 
 1. **Verified rules** - exact naming, phase codes, revision/status metadata and
    requirements directly supported by official documents.
-2. **Candidate practice checks** - discipline deliverables derived from
-   practitioner material, clearly labelled advisory until confirmed against a
-   current IDAS/Smart Hub manual, real submission package or CRS evidence.
+2. **Practitioner-confirmed workflow rules** - currently the 30%, 60%, 90% and 100% IDAS gate structure, retained with named provenance and date.
+3. **Candidate practice checks** - discipline deliverables derived from practitioner material, clearly labelled advisory until confirmed against a current IDAS/Smart Hub manual, real submission package or CRS evidence.
 
 ## Remaining evidence needed
 
